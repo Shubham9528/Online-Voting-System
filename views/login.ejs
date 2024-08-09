@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/inner/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Online Voting System</h1>
+        </div>
+        <div class="form">
+            <h4>Voter Login</h4>
+            <form action="/voting-system" method="POST">
+                <label class="label">Phone Number:</label>
+                <input type="text" name="phone" id="" class="input" placeholder="Enter Phone Number" required>
+                <label class="label">Voter Id:</label>
+                <input type="text" name="voterId" id="" class="input" placeholder="Enter Voter Id" required>
+
+                <button class="button" name="login">Login</button>
+                <div class="link1">New user ? <a href="/register">Register here</a></div>
+                <div class="link1">Change Mobile Number ? <a href="lost_phone.php">Send Request</a></div>
+            </form>
+            <p class="error"></p>
+        </div>
+
+    </div>
+</body>
+</html>

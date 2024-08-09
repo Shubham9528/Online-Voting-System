@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="/inner/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading"><h1>Online Voting System</h1></div>
+        <div class="form">
+            <h4>Admin Login</h4>
+            <form action="/adminLogin" method="POST">
+                <label class="label">Email Id:</label>
+                <input type="email" name="email" class="input" placeholder="Enter Email id" required>
+
+                <label class="label">Password:</label>
+                <input type="password" name="password" class="input" placeholder="Enter Password" required>
+
+                <button class="button" name="login">Login</button>
+            </form>
+            <p class="error"></p>
+        </div>
+   </div> 
+</body>
+</html>

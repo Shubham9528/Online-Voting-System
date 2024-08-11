@@ -4,7 +4,7 @@ Welcome to the Online Voting System project! This system allows organizations, i
 ## 🚀 Project Overview
 
 ## Table of Contents
-- [Landing Page](#landing page)
+- [LandingPage](#landing page)
 - [Usage](#usage)
 - [Installation](#installation)
 - [Contributing](#contributing)

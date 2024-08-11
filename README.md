@@ -50,6 +50,7 @@ bash
 
 ## 🔑 Admin Module
  The admin module allows administrators to manage the voting process. This includes adding candidates and defining the voting period.
+ 
 ![admin login](https://github.com/user-attachments/assets/d59a7e87-d416-403c-b217-5691002f320b)
 
 ## ✨Key Features
@@ -97,6 +98,7 @@ Sudo
 ## 📝 Registration Module
 
 This module allows new voters to register by providing their details, including their ID proof and contact information:
+
 ![voter regitration](https://github.com/user-attachments/assets/f7d2bd35-bc2e-40c9-8632-8b514fdecd33)
 
 ## ✨Key Features
@@ -150,6 +152,7 @@ Sudo
 ## 🗳️ Voting System Module
 
 Candidate Selection: Voters can view and select a candidate to vote for.
+
 ![voting page](https://github.com/user-attachments/assets/d1677126-0216-45a0-a6ec-e3b6cb3f95a3)
 
 ## ✨Key Features
@@ -185,6 +188,7 @@ Candidate Selection: Voters can view and select a candidate to vote for.
 ## 🛠️ Backend Server
 
 The backend server handles all the database operations, API routes, and logic to support the online voting system. It is built using Node.js, Express.js, and PostgreSQL.
+
 ![database](https://github.com/user-attachments/assets/c1805c78-3587-4459-af6a-0e62adaf98d3)
 
 

@@ -270,7 +270,7 @@ Navigate to the project directory and install the required dependencies:
 npm install
 
 ```
-## 3.  Install Dependencies
+## 3. Set Up PostgreSQL Database
 Create a new PostgreSQL database named voting system:
 Update the database credentials in the backend server script.
 ```bash

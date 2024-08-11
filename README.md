@@ -23,8 +23,8 @@ The landing page is the entry point for users to access different parts of the o
 
 ## ✨Key Features
 
-Introduction: Brief explanation of what the Online Voting System is.
-Navigation Links: Links to login, register, or access the admin portal.
+- Introduction: Brief explanation of what the Online Voting System is.
+- Navigation Links: Links to login, register, or access the admin portal.
 
 bash
 ```
@@ -49,12 +49,13 @@ bash
 ```
 
 ## 🔑 Admin Module
-The admin module allows administrators to manage the voting process. This includes adding candidates and defining the voting period.
+ The admin module allows administrators to manage the voting process. This includes adding candidates and defining the voting period.
 ![admin login](https://github.com/user-attachments/assets/d59a7e87-d416-403c-b217-5691002f320b)
 
 ## ✨Key Features
 
-Add Candidates: Admins can add candidates with their party details
+- Add Candidates: Admins can add candidates with their party details.
+- Define Voting Dates: Admins can set the start and end dates for the voting process.
 
 
 Sudo
@@ -99,8 +100,8 @@ This module allows new voters to register by providing their details, including 
 ![voter regitration](https://github.com/user-attachments/assets/f7d2bd35-bc2e-40c9-8632-8b514fdecd33)
 
 ## ✨Key Features
-Voter Registration: Collects essential voter details for registration.
-ID Verification: Allows voters to choose their ID proof type
+- Voter Registration: Collects essential voter details for registration.
+- ID Verification: Allows voters to choose their ID proof type
 
 bash
 ```
@@ -152,8 +153,8 @@ Candidate Selection: Voters can view and select a candidate to vote for.
 ![voting page](https://github.com/user-attachments/assets/d1677126-0216-45a0-a6ec-e3b6cb3f95a3)
 
 ## ✨Key Features
-Voter Registration: Collects essential voter details for registration.
-Vote Submission: Once a candidate is selected, voters can submit their vote.
+- Voter Registration: Collects essential voter details for registration.
+- Vote Submission: Once a candidate is selected, voters can submit their vote.
 
 ``` Code
 <!-- HTML Structure for Voting -->
@@ -189,10 +190,10 @@ The backend server handles all the database operations, API routes, and logic to
 
 
 ## ✨Key Features
-Voter Registration: Stores voter details in the database.
-Admin Login: Authenticates admin users.
-Candidate Management: Adds candidates and manages their information.
-Voting Logic: Handles the voting process and vote counting.
+- Voter Registration: Stores voter details in the database.
+- Admin Login: Authenticates admin users.
+- Candidate Management: Adds candidates and manages their information.
+- Voting Logic: Handles the voting process and vote counting.
 
 ``` Sudo
 import express from "express";
@@ -253,9 +254,6 @@ app.listen(port, () => {
 
 ```
 
-# 🗳️ Online Voting System
-
-This project is a secure  online voting system, built using Node.js, Express.js, and PostgreSQL.
 
 ## 🏗️ How to Set Up the Project
 

@@ -47,6 +47,19 @@ bash
 </div>
 
 ```
+## 🗳️Voter Login Form
+
+![voter login](https://github.com/user-attachments/assets/a825a72c-8054-4f07-a9c1-1318138781d7)
+
+
+This project is part of a secure online voting system that allows voters to log in using their unique credentials. The Voter Login form is designed to ensure that only registered voters can access the voting system, making the process both secure and user-friendly.
+
+## 🌟 Features
+- Simple and Secure Login: Voters enter their ID Number, Phone Number, and Voter ID to log in.
+- User Registration: New users can easily register through a provided link.
+- Request for Mobile Number Change: If voters need to change their registered mobile number, they can send a request via the form.
+- Authentication: Secure user authentication via encrypted credentials (bcrypt)
+
 
 ## 🔑 Admin Module
  The admin module allows administrators to manage the voting process. This includes adding candidates and defining the voting period.
